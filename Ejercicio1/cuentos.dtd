@@ -1,3 +1,4 @@
+<!DOCTYPE cuento [
 <!ELEMENT cuento (cod, titulo, género?, personajes, trama, etiqueta*, precio?)>
 <!ELEMENT cod (#PCDATA)>
 <!ELEMENT titulo (#PCDATA)>
@@ -22,3 +23,4 @@
 <!ELEMENT precio (moneda?, valor)>
 <!ELEMENT moneda (#PCDATA)>
 <!ELEMENT valor (#PCDATA)>
+]>
