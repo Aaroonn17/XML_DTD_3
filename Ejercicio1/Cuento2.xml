@@ -1,0 +1,36 @@
+<!-- 
+Nombre: Aarón Lorente Cortés
+Curso: DAM 1
+Fecha: 02/04/2025
+Ejercicio: Cuento 2
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cuento SYSTEM "cuentos.dtd">
+<cuento>
+    <cod>T07</cod>
+    <titulo>La Criatura del Lago</titulo>
+    <género>terror</género>
+    <personajes>
+        <personaje>
+            <id>P1</id>
+            <tipo>principal</tipo>
+            <nombre>Ana</nombre>
+            <género>F</género>
+            <descripción>Una bióloga que investiga un lago misterioso.</descripción>
+            <descripción_fisica>Alta, con cabello castaño y gafas.</descripción_fisica>
+        </personaje>
+        <personaje>
+            <id>P2</id>
+            <tipo>antagonista</tipo>
+            <nombre>Criatura del Lago</nombre>
+            <género>N</género>
+            <descripción>Un ser desconocido que acecha en la oscuridad.</descripción>
+            <imagen>criatura.png</imagen>
+        </personaje>
+    </personajes>
+    <trama>Ana descubre que algo monstruoso vive bajo las aguas del lago.</trama>
+    <precio>
+        <valor>09.75</valor>
+    </precio>
+</cuento>

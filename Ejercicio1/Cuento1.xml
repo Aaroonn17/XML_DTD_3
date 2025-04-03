@@ -1,0 +1,46 @@
+<!-- 
+Nombre: Aarón Lorente Cortés
+Curso: DAM 1
+Fecha: 02/04/2025
+Ejercicio: Cuento 1
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Aquí conectamos el dtd externo con el xml-->
+<!DOCTYPE cuento SYSTEM "cuentos.dtd">
+<cuento>
+    <cod>A10</cod>
+    <titulo>El Reino Perdido</titulo>
+    <género>fantasía</género>
+    <!--Aquí empezamos a abrir la etiqueta personajes y abriendo más etiquetas
+    con sus características-->
+    <personajes>
+        <personaje>
+            <id>P1</id>
+            <tipo>principal</tipo>
+            <nombre>Arthur</nombre>
+            <género>M</género>
+            <descripción>Un joven príncipe que busca restaurar su reino.</descripción>
+            <imagen>arthur.jpg</imagen>
+        </personaje>
+        <personaje>
+            <id>P2</id>
+            <tipo>antagonista</tipo>
+            <nombre>Rey Sombra</nombre>
+            <género>M</género>
+            <descripción>El tirano que ha tomado el reino con magia oscura.</descripción>
+            <url>https://es.wikipedia.org/wiki/Rey_Sombra</url>
+        </personaje>
+    </personajes>
+    <trama>Arthur debe encontrar la Espada de la Luz para derrotar al Rey Sombra.</trama>
+    <etiqueta>
+        <nombre>épico</nombre>
+    </etiqueta>
+    <etiqueta>
+        <nombre>fantasía</nombre>
+    </etiqueta>
+    <precio>
+        <moneda>usd</moneda>
+        <valor>15.99</valor>
+    </precio>
+</cuento>

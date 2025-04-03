@@ -1,0 +1,24 @@
+<!ELEMENT cuento (cod, titulo, género?, personajes, trama, etiqueta*, precio?)>
+<!ELEMENT cod (#PCDATA)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT género (#PCDATA)>
+
+<!ELEMENT personajes (personaje+)>
+<!ELEMENT personaje (id, tipo, nombre, género, descripción?, (descripción_fisica | imagen | url)?)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT tipo (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT género (#PCDATA)>
+<!ELEMENT descripción (#PCDATA)>
+<!ELEMENT descripción_fisica (#PCDATA)>
+<!ELEMENT imagen (#PCDATA)>
+<!ELEMENT url (#PCDATA)>
+
+<!ELEMENT trama (#PCDATA)>
+
+<!ELEMENT etiqueta (nombre)>
+<!ELEMENT nombre (#PCDATA)>
+
+<!ELEMENT precio (moneda?, valor)>
+<!ELEMENT moneda (#PCDATA)>
+<!ELEMENT valor (#PCDATA)>
